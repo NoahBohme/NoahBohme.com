@@ -1,0 +1,10 @@
+<span id="a">noah@bohme</span>:<span id="b">~</span><span id="c">$</span> cd noahbohme/about_me
+<span id="a">noah@bohme</span>:<span id="b">~</span><span id="c">$</span> cat noahbohme.txt<br/><br/>
+
+Hey There!<p>I do things with servers and development</p>
+
+<p>I am currently doing hosting @ Viral Group (Viral Hosting) and <a href="/freelance"> freelance work</a></p> 
+<p>I maintain and run our server operations, do project mangement and sales... i know a little bit of nothing and a little bit of everything</a></p>
+<p> Connect with me on social medias! <br> <a href="https://github.com/noahbohme">GitHub</a> <br> <a href="https://www.linkedin.com/in/noahbohme/">LinkedIn</a></p>
+
+Feel free to send me an email at <a href="mailto:noah@noahbohme.com">noah@noahbohme.com</a>
