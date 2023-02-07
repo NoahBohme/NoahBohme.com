@@ -1,5 +1,8 @@
 # What even is security?
 
+# Du ser IT-sikkerhedhuller?
+# Jeg ser en kærkommen mulighed for at optimere yderligere på sikkerhedsniveauet
+
 Contact: mailto:security@noahbohme.com
 
 Preferred-Languages: da, en
