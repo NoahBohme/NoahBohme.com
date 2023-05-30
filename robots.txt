@@ -1,0 +1,4 @@
+# Always Rank Big.
+
+User-agent: *
+Sitemap: https://www.noahbohme.com/sitemap.xml

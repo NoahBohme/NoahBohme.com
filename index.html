@@ -1,83 +1,10 @@
+<!DOCTYPE html>
 <html>
-  <body>
-    <title>Noah Böhme Rasmussen</title>
-    <script
-      src="https://kit.fontawesome.com/2424cab62a.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
 
-<body>
-  <div class="container">
-    <div class="head__section">
-      <img src="noah.png" alt="" />
-      <p>IT & Consulting</p>
-    </div>
-    <div class="description">
-      <h3>Hi there, Noah here👋🏾</h3>
-      <h4>Who am i?</h4>
-      <p>
-        I'm an IT & cyber security consultant who works with anything from SaaS
-        owners to webshops. <br />
-        I have experience in many tech stacks - some days i fix bugs in
-        WordPress other days i setup Linux servers. <br>
-        On the side i work on different SaaS and startup projects. <br>
-        <h4>My tech stack</h4>
-        <p>Linux systems (RHEL, Ubuntu)<br>
-          Scripting (Bash + Python)<br>
-          JavaScript + HTML + PHP<br></p>
-        </p>
-        <h4>Business stack</h4>
-        <p>
-          Sales<br>
-          Project management<br>
-          Negotiation and deal closing<br>
-          Building teams (off-shore, close-shore, and on-shore)<br>
-        </p>
-        <h4>Connect with me</h4>
-    </div>
-    <div class="social__links">
-      <ul id="item">
-        <li class="linkedin">
-          <a href="https://www.linkedin.com/in/noahbohme/">
-            <i class="fa fa-linkedin"></i>
-            <span>
-              <h3>Noah Böhme Rasmussen</h3>
-              <p>Connect on LinkedIn</p>
-            </span>
-          </a>
-        </li>
-        <li class="email">
-          <a href="mailto:noah@noahbohme.com">
-            <i class="fa fa-envelope"></i>
-            <span>
-              <h3>noah@noahbohme.com</h3>
-              <p>Send an email</p>
-            </span>
-          </a>
-        </li>
-        <li class="phone">
-          <a href="tel:+4532252520">
-            <i class="fa fa-phone"></i>
-            <span>
-              <h3>+45 32 25 25 20</h3>
-              <p>Give me a call</p>
-            </span>
-          </a>
-        </li>
-        <li class="github">
-          <a href="https://github.com/NoahBohme/">
-            <i class="fa fa-github"></i>
-            <span>
-              <h3>NoahBohme</h3>
-              <p>See my Github</p>
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<head>
+  <title>Noah Böhme Rasmussen</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" />
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
@@ -87,18 +14,22 @@
       box-sizing: border-box;
       list-style: none;
     }
+
     a {
       text-decoration: none;
     }
+
     h3,
     h4 {
       color: white;
       text-align: center;
       margin: 10px;
     }
+
     p {
       color: white;
     }
+
     body {
       height: 100vh;
       display: grid;
@@ -106,9 +37,12 @@
       background: #000000;
       font-family: "Nunito", sans-serif;
     }
+
     .container {
-      width: 30em;
+      width: 90%;
+      max-width: 30em;
     }
+
     .head__section img {
       display: block;
       margin: 0 auto;
@@ -118,10 +52,17 @@
       border-radius: 50%;
       margin-bottom: 20px;
     }
+
     .head__section p {
       text-align: center;
       color: #fff;
     }
+
+    .description {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
     .social__links ul li {
       width: 100%;
       margin: 1.2rem 0;
@@ -134,9 +75,11 @@
       perspective: 500px;
       box-shadow: 0 0 0.8rem rgba(255, 255, 255, 0.12);
     }
+
     .js-tilt-glare {
       border-radius: 5px;
     }
+
     .social__links ul li a {
       width: 100%;
       display: flex;
@@ -144,6 +87,7 @@
       color: #ffff;
       font-size: 1rem;
     }
+
     .social__links ul li a i {
       text-align: center;
       line-height: 4rem;
@@ -152,26 +96,106 @@
       transform: scale(1.4) translateZ(50px);
       transition: 0.25s;
     }
+
     .social__links ul li a span {
       line-height: 1.4rem;
     }
+
     .social__links ul .linkedin:hover {
       background: #0077b5;
     }
+
     .social__links ul .phone:hover {
       background: #0088cc;
     }
+
     .social__links ul .github:hover,
     .email:hover {
       background: #333;
     }
+
     @media only screen and (max-width: 549px) {
       .container {
-        width: 88vw;
+        width: 90%;
       }
     }
+
     span {
       margin-left: 20px !important;
     }
   </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="head__section">
+      <img src="noah.png" alt="" />
+      <p>IT &amp; Consulting</p>
+    </div>
+    <div class="description">
+      <h3>Hi there, Noah here👋🏾</h3>
+      <h4>Who am I?</h4>
+      <p>
+        I'm an IT &amp; cyber security consultant who works with anything from SaaS owners to webshops. <br />
+        I have experience in many tech stacks - some days I fix bugs in WordPress, and other days I set up Linux servers. <br />
+        On the side, I work on different SaaS and startup projects.
+      </p>
+      <h4>My tech stack</h4>
+      <p>
+        Linux systems (RHEL, Ubuntu)<br>
+        Scripting (Bash + Python)<br>
+        JavaScript + HTML + PHP
+      </p>
+      <h4>Business stack</h4>
+      <p>
+        Sales<br>
+        Project management<br>
+        Negotiation and deal closing<br>
+        Building teams (off-shore, close-shore, and on-shore)<br>
+      </p>
+      <h4>Connect with me</h4>
+    </div>
+    <div class="social__links">
+      <ul id="item">
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/in/noahbohme/">
+            <i class="fab fa-linkedin"></i>
+            <span>
+              <h3>Noah Böhme Rasmussen</h3>
+              <p>Connect on LinkedIn</p>
+            </span>
+          </a>
+        </li>
+        <li class="email">
+          <a href="mailto:noah@noahbohme.com">
+            <i class="far fa-envelope"></i>
+            <span>
+              <h3>noah@noahbohme.com</h3>
+              <p>Send an email</p>
+            </span>
+          </a>
+        </li>
+        <li class="phone">
+          <a href="tel:+4532252520">
+            <i class="fas fa-phone"></i>
+            <span>
+              <h3>+45 32 25 25 20</h3>
+              <p>Give me a call</p>
+            </span>
+          </a>
+        </li>
+        <li class="github">
+          <a href="https://github.com/NoahBohme/">
+            <i class="fab fa-github"></i>
+            <span>
+              <h3>NoahBohme</h3>
+              <p>See my Github</p>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </body>
+
+</html>
