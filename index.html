@@ -1,207 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Noah Böhme Rasmussen</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    crossorigin="anonymous" />
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
-
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-      list-style: none;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    h3,
-    h4 {
-      color: white;
-      text-align: center;
-      margin: 10px;
-    }
-    h5{
-      color: white;
-    }
-
-    p {
-      color: white;
-    }
-
-    body {
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #000000;
-      font-family: "Nunito", sans-serif;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 30em;
-    }
-
-    .head__section img {
-      display: block;
-      margin: 0 auto;
-      height: 5rem;
-      width: 5rem;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 20px;
-    }
-
-    .head__section p {
-      text-align: center;
-      color: #fff;
-    }
-
-    .description {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .social__links ul li {
-      width: 100%;
-      margin: 1rem 0;
-      padding: 0.4rem 0.8rem;
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(0px);
-      border-radius: 5px;
-      transition: background 0.25s;
-      transform-style: preserve-3d;
-      perspective: 500px;
-      box-shadow: 0 0 0.8rem rgba(255, 255, 255, 0.12);
-    }
-
-    .js-tilt-glare {
-      border-radius: 5px;
-    }
-
-    .social__links ul li a {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      color: #ffff;
-      font-size: 1rem;
-    }
-
-    .social__links ul li a i {
-      text-align: center;
-      line-height: 2rem;
-      font-size: 1.8rem;
-      text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
-      transition: 0.25s;
-    }
-
-    .social__links ul li a span {
-      margin-left: 10px;
-    }
-
-    .social__links ul .linkedin:hover {
-      background: #0077b5;
-    }
-
-    .social__links ul .phone:hover {
-      background: #0088cc;
-    }
-
-    .social__links ul .github:hover,
-    .email:hover {
-      background: #333;
-    }
-
-    @media only screen and (max-width: 768px) {
-      .head__section img {
-        height: 4rem;
-        width: 4rem;
-      }
-
-      h3 {
-        font-size: 1.5rem;
-      }
-
-      h4 {
-        font-size: 1.2rem;
-      }
-
-      .social__links ul li a i {
-        line-height: 2rem;
-        font-size: 1.5rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Böhme Rasmussen</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div class="container">
-    <div class="head__section">
-      <img src="noah.png" alt="" />
-      <p>Hi there, Noah here👋🏾</p>
+<body class="bg-gray-100 font-nunito min-h-screen flex flex-col items-center justify-center">
+
+    <div class="container mx-auto text-center text-gray-800">
+
+        <!-- Head Section -->
+        <div>
+            <img src="noah.png" alt="Noah's Profile Image" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <p class="text-2xl font-semibold">Hi there, Noah here👋🏾</p>
+        </div>
+
+        <!-- Description Section -->
+        <div class="mt-6">
+            <h4 class="text-xl font-semibold">What do I do?</h4>
+            <ul class="list-disc list-inside">
+                <li>CTO @ <a href="https://www.rc360.dk">rc360</a></li>
+                <li>CTO @ <a href="https://copenhagenskinconcept.dk">Copenhagen Skin Concept</a></li>
+                <li>CTO @ <a href="https://nextadventure.dk">Next Adventure</a></li>
+                <li>Mentor @ Copenhagen School of Entrepreneurship</li>
+            </ul>
+        </div>
+
+        <!-- Connect with me Section -->
+        <div class="mt-8">
+            <h4 class="text-xl font-semibold">Connect with me</h4>
+            <ul class="list-none">
+                <li class="max-w-md mx-auto">
+                    <a href="https://www.linkedin.com/in/noahbohme/" class="flex items-center justify-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+                        <i class="fab fa-linkedin text-lg mr-2"></i>
+                        <span>Connect on LinkedIn</span>
+                    </a>
+                </li>
+                <li class="mt-4 max-w-md mx-auto">
+                    <a href="https://cal.com/bohme" class="flex items-center justify-center bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">
+                        <i class="fas fa-phone text-lg mr-2"></i>
+                        <span>Book a meeting</span>
+                    </a>
+                </li>
+                <li class="mt-4 max-w-md mx-auto">
+                    <a href="/cdn-cgi/l/email-protection#513f3e3039113f3e30..." class="flex items-center justify-center bg-indigo-500 text-white py-2 px-4 rounded hover:bg-indigo-600">
+                        <i class="far fa-envelope text-lg mr-2"></i>
+                        <span>Send an email</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- As seen on Section -->
+        <div class="mt-8">
+            <h4 class="text-xl font-semibold">Featured:</h4>
+            <a href="https://itwatch.dk/ITNyt/Brancher/offentlig_it/article12388101.ece" class="text-blue-500 hover:underline">IT Watch</a>
+            <a href="https://vores-randers.dk/a/noah-er-autodidakt-ivaerksaetter-noerd/f6ba0e40-aa6d-421f-a38c-a26b30fb14a4" class="text-blue-500 hover:underline ml-4">VoresRanders</a>
+            <a href="https://itwatch.dk/ITNyt/Brancher/offentlig_it/article12388101.ece" class="text-blue-500 hover:underline">IT Watch</a>
+        </div>
+
     </div>
-    <div class="description">
-      <h4>What do I do?</h4>
-      <h5>CTO @ rc360</h5>
-      <h5>CTO @ Copenhagen Skin Concept</h5>
-      <h5>Co-founder @ Next Adventure</h5>
-      <h5>Mentor @ Copenhagen School of Entrepreneurship</h5>
-      <p>Goes without saying - not wasting too much time</p>
-      <h4>Connect with me</h4>
-    </div>
-    <div class="social__links">
-      <ul id="item">
-        <li class="linkedin">
-          <a href="https://www.linkedin.com/in/noahbohme/">
-            <i class="fab fa-linkedin"></i>
-            <span>
-              <h4>Noah Böhme Rasmussen</h4>
-              <p>Connect on LinkedIn</p>
-            </span>
-          </a>
-        </li>
-        <li class="email">
-          <a href="mailto:noah@noahbohme.com">
-            <i class="far fa-envelope"></i>
-            <span>
-              <h4>noah@noahbohme.com</h4>
-              <p>Send an email</p>
-            </span>
-          </a>
-        </li>
-        <li class="phone">
-          <a href="tel:+4532252520">
-            <i class="fas fa-phone"></i>
-            <span>
-              <h4>+45 32 25 25 20</h4>
-              <p>Give me a call</p>
-            </span>
-          </a>
-        </li>
-        <li class="github">
-          <a href="https://github.com/NoahBohme/">
-            <i class="fab fa-github"></i>
-            <span>
-              <h4>NoahBohme</h4>
-              <p>See my Github</p>
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <h4>As seen on:</h4>
-    <a href="https://itwatch.dk/ITNyt/Brancher/offentlig_it/article12388101.ece"><h4 style="color:#0088cc">IT Watch</h4> </a>
-    <a href="https://vores-randers.dk/a/noah-er-autodidakt-ivaerksaetter-noerd/f6ba0e40-aa6d-421f-a38c-a26b30fb14a4"><h4 style="color:#0088cc">VoresRanders</h4> </a>
-    <h4>Quotes:</h4>
-    <h5>Always win big.</h5>
-    <h5>Not tomorrow - Right now.</h5>
-  </div>
+
 </body>
 
 </html>
